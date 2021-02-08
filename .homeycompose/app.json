@@ -1,0 +1,24 @@
+{
+  "id": "nl.harwin.kef",
+  "version": "0.1.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "name": {
+    "en": "KEF"
+  },
+  "description": {
+    "en": "Add support for KEF devices"
+  },
+  "category": [
+    "music"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Harwin Borger",
+    "email": "harwin@studioborger.nl"
+  }
+}

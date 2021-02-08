@@ -1,0 +1,8 @@
+{
+  "name": "nl.harwin.kef",
+  "version": "0.1.0",
+  "main": "app.js",
+  "devDependencies": {
+    "homey": "^2.9.7"
+  }
+}

@@ -1,1 +1,3 @@
-# nl.harwin.kef
+# KEF
+
+Add support for KEF devices
