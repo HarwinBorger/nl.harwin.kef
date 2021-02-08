@@ -44,6 +44,7 @@
         "large": "/drivers/lsx/assets/images/large.png",
         "small": "/drivers/lsx/assets/images/small.png"
       },
+      "discovery": "my_discovery",
       "pair": [
         {
           "id": "list_devices",
@@ -61,5 +62,15 @@
         }
       ]
     }
-  ]
+  ],
+  "discovery": {
+    "my_discovery": {
+      "type": "mdns-sd",
+      "mdns-sd": {
+        "name": "raop",
+        "protocol": "tcp"
+      },
+      "id": "{{txt.id}}"
+    }
+  }
 }

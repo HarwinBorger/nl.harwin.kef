@@ -18,6 +18,7 @@
     "large": "/drivers/lsx/assets/images/large.png",
     "small": "/drivers/lsx/assets/images/small.png"
   },
+  "discovery": "my_discovery",
   "pair": [
     {
       "id": "list_devices",
