@@ -1,0 +1,21 @@
+{
+  "id": "lsx",
+  "name": {
+    "en": "LSX"
+  },
+  "class": "speaker",
+  "capabilities": [
+    "speaker_next",
+    "speaker_playing",
+    "speaker_prev",
+    "volume_set",
+    "onoff",
+    "volume_down",
+    "volume_mute",
+    "volume_up"
+  ],
+  "images": {
+    "large": "/drivers/lsx/assets/images/large.png",
+    "small": "/drivers/lsx/assets/images/small.png"
+  }
+}

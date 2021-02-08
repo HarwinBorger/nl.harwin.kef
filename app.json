@@ -1,3 +1,49 @@
 {
-  "_comment": "This file is generated. Please edit .homeycompose/app.json instead."
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "nl.harwin.kef",
+  "version": "0.1.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "name": {
+    "en": "KEF"
+  },
+  "description": {
+    "en": "Add support for KEF devices"
+  },
+  "category": [
+    "music"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Harwin Borger",
+    "email": "harwin@studioborger.nl"
+  },
+  "brandColor": "#000000",
+  "drivers": [
+    {
+      "id": "lsx",
+      "name": {
+        "en": "LSX"
+      },
+      "class": "speaker",
+      "capabilities": [
+        "speaker_next",
+        "speaker_playing",
+        "speaker_prev",
+        "volume_set",
+        "onoff",
+        "volume_down",
+        "volume_mute",
+        "volume_up"
+      ],
+      "images": {
+        "large": "/drivers/lsx/assets/images/large.png",
+        "small": "/drivers/lsx/assets/images/small.png"
+      }
+    }
+  ]
 }
