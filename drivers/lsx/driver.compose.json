@@ -17,5 +17,21 @@
   "images": {
     "large": "/drivers/lsx/assets/images/large.png",
     "small": "/drivers/lsx/assets/images/small.png"
-  }
+  },
+  "pair": [
+    {
+      "id": "list_devices",
+      "template": "list_devices",
+      "navigation": {
+        "next": "add_devices"
+      },
+      "options": {
+        "singular": false
+      }
+    },
+    {
+      "id": "add_devices",
+      "template": "add_devices"
+    }
+  ]
 }
